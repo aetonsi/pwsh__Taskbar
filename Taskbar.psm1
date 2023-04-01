@@ -1,4 +1,4 @@
-Import-Module -Scope Local .\pwsh__Utils\Utils.psm1
+Import-Module -Scope Local $PSScriptRoot\pwsh__Utils\Utils.psm1
 
 
 enum TaskbarStatuses {
